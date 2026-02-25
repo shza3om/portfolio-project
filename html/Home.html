@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Aqsa University | منصة الإرشاد الأكاديمي</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Al-Aqsa University</div>
+        <ul class="nav-links">
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#departments">الأقسام</a></li>
+            <li><a href="#services">الخدمات</a></li>
+            <li><a href="#" id="loginBtn">تسجيل الدخول</a></li> 
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>رحلتك الأكاديمية تبدأ هنا</h1>
+            <p>نحن نساعدك على فهم البرامج الجامعية واختيار مسارك الصحيح.</p>
+            <button class="btn-main">ابدأ الآن</button>
+        </div>
+    </header>
+
+    <section id="departments" class="section">
+        <h2 class="section-title">الأقسام الأكاديمية</h2>
+        <div class="grid-container" id="deptGrid">
+            <div class="card"><img src="../image/كلية التكنولوجيا.jfif" alt="IT"><h3>تكنولوجيا المعلومات</h3></div>
+            <div class="card"><img src="../image/كلية الهندسة.jfif" alt="Eng"><h3>الهندسة</h3></div>
+            <div class="card"><img src="../image/ادارة الاعممال.jpg"Bus"><h3>إدارة الأعمال</h3></div>
+            <div class="card"><img src="../image/كلية الطب.jfif" alt="Med"><h3>الطب</h3></div>
+            
+            <div class="card hidden"><img src="../image/كلية العلوم.jpg" alt="Sci"><h3>العلوم</h3></div>
+            <div class="card hidden"><img src="../image/كلية الاداب.jfif" alt="Art"><h3>الآداب</h3></div>
+            <div class="card hidden"><img src="../image/كلية القانون.jpg" alt="Law"><h3>القانون</h3></div>
+            <div class="card hidden"><img src="../image/كلية التربية.jpg" alt="Edu"><h3>التربية</h3></div>
+            <div class="card hidden"><img src="../image/كلية التصميم.jpg" alt="Design"><h3>التصميم</h3></div>
+            <div class="card hidden"><img src="../image/كلية التمريض.jpg" alt="Nurs"><h3>التمريض</h3></div>
+            <div class="card hidden"><img src="../image/كلية الصيدلة.jpg" alt="Pharm"><h3>الصيدلة</h3></div>
+            <div class="card hidden"><img src="../image/كلية الاعلام.jpg" alt="Media"><h3>الإعلام</h3></div>
+            <div class="card hidden"><img src="../image/كلية الزراعة.jpg" alt="Agri"><h3>الزراعة</h3></div>
+            <div class="card hidden"><img src="../image/كلية الرياضيات.jpg" alt="Math"><h3>الرياضيات</h3></div>
+            <div class="card hidden"><img src="../image/كلية البرمجة.jpg" alt="Math"><h3>كلية البرمجة</h3></div>
+             <div class="card hidden"><img src="../image/كلية الاقتصاد.jfif" alt="Math"><h3>كليةالاقتصاد</h3></div>
+        </div>
+        <button id="showMore" class="btn-secondary">عرض المزيد</button>
+    </section>
+
+  <section id="services" class="section">
+    <h2 class="section-title">خدماتنا المميزة</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <img src="../image/الارشاد الاكاديمي.jpg" alt="خدمة 1">
+            <div class="service-overlay">
+                <h3>الإرشاد الأكاديمي</h3>
+                <p>توجيه كامل لمسارك الدراسي</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <img src="../image/دعم التسجيل.jpg" alt="خدمة 2">
+            <div class="service-overlay">
+                <h3>دعم التسجيل</h3>
+                <p>مساعدة في اختيار الجداول</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <img src="../image/التوجيه المهني.jfif" alt="خدمة 3">
+            <div class="service-overlay">
+                <h3>التوجيه المهني</h3>
+                <p>تحضيرك لسوق العمل</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <img src="../image/الدعم التقني.jfif" alt="خدمة 4">
+            <div class="service-overlay">
+                <h3>الدعم التقني</h3>
+                <p>حل مشكلات التعلم الإلكتروني</p>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>تسجيل الدخول</h2>
+            <form>
+                <input type="text" placeholder="اسم المستخدم" required>
+                <input type="password" placeholder="كلمة المرور" required>
+                <button type="submit" class="btn-main">دخول</button>
+            </form>
+        </div>
+    </div>
+
+   <footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>تواصل معنا<h3>
+            <p>البريد: info@uniguide.edu</p>
+            <p>هاتف: 123456789</p>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Al-Aqsa University</h3>
+            <p>منصة الإرشاد الأكاديمي الأولى لطلاب الجامعة.</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>جميع الحقوق محفوظة &copy; 2026 Al-Aqsa University</p>
+    </div>
+</footer>
+
+    <script src="../index/index.java"></script>
+</body>
+</html>
